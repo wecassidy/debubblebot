@@ -1,5 +1,6 @@
 /scrape/
 secret.py
+scrape.py
 
 bin/
 include/
