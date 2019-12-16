@@ -16,7 +16,7 @@ def debubble(image, masking=True):
     grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     _, bubbles = cv2.threshold(grey, 250, 255, cv2.THRESH_BINARY)
 
-    _, contours, _ = cv2.findContours(
+    contours, _ = cv2.findContours(
         bubbles,
         cv2.RETR_TREE,
         cv2.CHAIN_APPROX_SIMPLE
