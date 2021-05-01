@@ -12,6 +12,6 @@ numpy==1.17.4
 opencv-python-headless==4.1.2.30
 requests==2.22.0
 soupsieve==1.9.5
-urllib3==1.25.7
+urllib3==1.25.8
 websockets==6.0
 yarl==1.4.2
